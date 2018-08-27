@@ -31,7 +31,7 @@ XRegExp.make = function(pattern, subs, flags = '') {
 };
 
 /**
- * Комбинация методов RegExp.union() и RegExp.build() в одном методе
+ * Комбинация методов XRegExp.union() и XRegExp.build() в одном методе
  *
  * @param   {Array}  keys
  * @param   {Object} subs
@@ -48,7 +48,7 @@ XRegExp.unionBuild = function(keys, subs, flags) {
 };
 
 /**
- * Исключение лишних скобок из из регулярных выражений.
+ * Исключение лишних скобок из регулярных выражений.
  * Удаляет '(?:)' и лишнее оборачивание в '(?:' и ')'
  * Этот мусор вставляют некоторые методы XRegExp :(
  *
